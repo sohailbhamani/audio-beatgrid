@@ -1,8 +1,9 @@
-import pytest
-import numpy as np
-import soundfile as sf
-import tempfile
 import os
+import tempfile
+
+import numpy as np
+import pytest
+import soundfile as sf
 
 SAMPLE_RATE = 44100
 

@@ -1,7 +1,7 @@
-import subprocess
 import json
-import pytest
+import subprocess
 import sys
+
 import numpy as np
 
 
@@ -21,7 +21,7 @@ def test_detect_beats(generated_beat_file):
     data = json.loads(result.stdout)
     detected_beats = data["beats"]
     bpm = data["bpm"]
-    confidence = data["confidence"]
+    _confidence = data["confidence"]  # noqa: F841
 
     # 1. Verify BPM
     assert abs(bpm - 120.0) < 1.0, f"Expected 120 BPM, got {bpm}"
@@ -31,9 +31,7 @@ def test_detect_beats(generated_beat_file):
     # But intervals should be consistent (0.5s for 120 BPM)
     intervals = np.diff(detected_beats)
     median_interval = np.median(intervals)
-    assert abs(median_interval - 0.5) < 0.02, (
-        f"Expected 0.5s interval, got {median_interval}"
-    )
+    assert abs(median_interval - 0.5) < 0.02, f"Expected 0.5s interval, got {median_interval}"
 
     # 3. Verify Confidence
     # Synthetic clicks are very clear but Essentia multifeature might return 0.0 confidence for short samples

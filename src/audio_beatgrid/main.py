@@ -4,7 +4,6 @@ import sys
 from pathlib import Path
 
 import click
-import numpy as np
 
 # Configure logging to stderr
 logging.basicConfig(level=logging.INFO, stream=sys.stderr, format="%(message)s")
@@ -22,10 +21,10 @@ def cli():
 def detect(audio_path: Path):
     """Detect beats and output JSON results."""
     try:
-        import essentia.standard as es
-
         # Suppress warnings
         import warnings
+
+        import essentia.standard as es
 
         warnings.filterwarnings("ignore")
 
