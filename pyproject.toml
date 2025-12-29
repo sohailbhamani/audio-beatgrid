@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audio-beatgrid"
+version = "0.1.0"
+description = "A GPL-licensed CLI tool for beat grid extraction using Essentia"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0.0",
+    "numpy>=1.20.0",
+    "essentia>=2.1b6.dev1389",
+]
+
+[project.scripts]
+audio-beatgrid = "audio_beatgrid.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
