@@ -93,7 +93,7 @@ class TestErrorHandling:
         assert result.returncode != 0
 
     def test_empty_file(self, temp_audio_path):
-        with open(temp_audio_path, "w") as f:
+        with open(temp_audio_path, "w"):
             pass
         result = run_detect(temp_audio_path)
         assert result.returncode != 0
