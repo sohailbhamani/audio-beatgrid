@@ -2,6 +2,13 @@
 
 
 
+## v0.0.1 (2025-12-30)
+
+### Fix
+
+* fix: initial release bump to 0.0.1 ([`87eee2d`](https://github.com/sohailbhamani/audio-beatgrid/commit/87eee2d0461bdac71dae1cb307b72936fcf606ea))
+
+
 ## v0.0.0 (2025-12-30)
 
 ### Chore
