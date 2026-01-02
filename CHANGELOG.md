@@ -2,6 +2,13 @@
 
 
 
+## v0.0.2 (2026-01-02)
+
+### Fix
+
+* fix(ci): use RELEASE_TOKEN for semantic-release bypass ([`300c4c9`](https://github.com/sohailbhamani/audio-beatgrid/commit/300c4c9ff44a5b525ed85a41757c61c421748514))
+
+
 ## v0.0.1 (2025-12-30)
 
 ### Fix
