@@ -103,7 +103,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`3732414`](https://github.com/sohailbhamani/audio-beatgrid/commit/3732414c379381b4e856c22847a08f2d9bcdea92))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`3732414`](https://github.com/sohailbhamani/audio-beatgrid/commit/3732414c379381b4e856c22847a08f2d9bcdea92))
 
 * chore: add OSS files (README, CONTRIBUTING, CODE_OF_CONDUCT, templates) ([`462ce6b`](https://github.com/sohailbhamani/audio-beatgrid/commit/462ce6b678c21ef22231b2b7f96279e5365a0fbc))
 
@@ -125,7 +125,7 @@ Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`3732414`](https://github.co
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`9195989`](https://github.com/sohailbhamani/audio-beatgrid/commit/9195989699dd1e5f69e45086c33457f0ebbe5413))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`9195989`](https://github.com/sohailbhamani/audio-beatgrid/commit/9195989699dd1e5f69e45086c33457f0ebbe5413))
 
 ### Unknown
 
