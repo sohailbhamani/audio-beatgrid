@@ -72,7 +72,7 @@ select = ["E", "F", "I", "N", "W", "UP"]
 ignore = ["E501"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.12"  # numpy >=2.4 stubs use 3.12 `type` statements; runtime 3.10+ is still tested by pytest
 warn_return_any = true
 warn_unused_ignores = true
 ignore_missing_imports = true
