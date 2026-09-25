@@ -1,12 +1,16 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
+    cooldown:
+      default-days: 7  # skip releases younger than a week (security fixes are exempt)
     directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
 
   - package-ecosystem: "github-actions"
+    cooldown:
+      default-days: 7  # skip releases younger than a week (security fixes are exempt)
     directory: "/"
     schedule:
       interval: "weekly"
